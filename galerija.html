@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website - Galerija</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <style>
+        #draggable-2 {
+            width: 100px;
+            height: 70px;
+            padding: 0.5em;
+            margin: 0px 5px 10px 0;
+        }
+    </style>
+
+    <script>
+        $(function() {
+                    $("#draggable-2").draggable();
+    </script>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+
+            <div class="d-flex flex-column">
+                <div class="p-5 bg-dark text-white">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                        <h1> Vojislav Miletić </h1>
+                        <div> <a href="https://www.facebook.com/Vojce96" target="_blank"><i class="fa fa-facebook"></i></a></div>
+                        <div> <a href="https://www.instagram.com/v.miletic96/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                        <div> <a href="https://www.linkedin.com/in/vojislav-miletic-662377148/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+                        <div> <a href="https://github.com/Vojce96" target="_blank"><i class="fa fa-github"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="p-3 text-white bg-black text-center">
+                    <p>Student Visoke Tehničke Škole Strukovnih Studija u Kragujevcu</p>
+                </div>
+
+                <div class="d-flex flex-row text-center text-white align-itmes-start embed-responsive">
+                   
+                    <div class="p-4 bg-success font-div tablinks">
+                        <a href="index.html" class="text-white"><i class="fa fa-home fa-2x d-block text-white"></i> Početna</a>
+                    </div>
+
+                    <div class="p-4 bg-primary font-div tablinks">
+                        <a href="o_meni.html" class="text-white"><i class="fa fa-info-circle fa-2x d-block text-white"></i> O meni</a>
+                    </div>
+
+                    <div class="p-4 bg-warning font-div tablinks">
+                        <a href="galerija.html" class="text-white"><i class="fa fa-image fa-2x d-block text-white"></i> Galerija</a>
+                    </div>
+
+                    <div class="p-4 bg-info font-div tablinks">
+                        <a href="medija.html" class="text-white"><i class="fa fa-film fa-2x d-block text-white"></i> Medija</a>
+                    </div>
+
+                    <div class="p-4 bg-danger font-div tablinks">
+                        <a href="seminarski.html" class="text-white"><i class="fa fa-file fa-2x d-block text-white"></i> Seminarski</a>
+                    </div>
+
+                    <div class="p-4 bg-secondary font-div tablinks">
+                        <a href="kontakt.html" class="text-white"><i class="fa fa-address-book fa-2x d-block text-white"></i> Kontakt</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="collapse show" id="galerija">
+            <div class="p-5 text-white bg-warning">
+                <h2>Galerija</h2>
+            </div>
+
+            <div class="tz-gallery bg-warning">
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija1.png">
+                                <img src="slike/galerija1.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija2.png">
+                                <img src="slike/galerija2.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija3.png">
+                                <img src="slike/galerija3.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija4.png">
+                                <img src="slike/galerija4.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija5.png">
+                                <img src="slike/galerija5.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="slike/galerija6.png">
+                                <img src="slike/galerija6.png" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+
+        <footer class="p-5 bg-dark">
+            <div class="col-lg-4 col-md4"> <img src="slike/logo.png"></div>
+        </footer>
+    </div>
+
+    <script src="java_script/JavaScript.js"></script>
+   
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+    <style>
+        #draggable-2 {
+            width: 100px;
+            height: 70px;
+            padding: 0.5em;
+            margin: 0px 5px 10px 0;
+        }
+    </style>
+
+    <script>
+        $(function() {
+            $("#draggable-2").draggable();
+
+        });
+    </script>
+</body></html>
